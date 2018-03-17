@@ -9,9 +9,15 @@
    <form method="POST" action="/teams">
      <label for="name">Team Name</label>
      <input type="text" name="team[name]"><br>
-     <p>Name: <input type="text" name="name"> </p>
-     <p>Power: <input type="text" name="power"> </p>
-     <p>Bio: <input type="text" name="bio"> </p>
+     <label for="name">Team Motto</label>
+     <input type="text" name="team[motto]"><br>
+     <label for="member">Team Member Name</label>
+     <input id="member1_name" type="text" name="team[members][][name]" ><br>
+     <label for="name">Team Motto</label>
+     <input type="text" name="team[motto]"><br>
+     <label for="name">Team Motto</label>
+     <input type="text" name="team[motto]"><br>
+
      <input type="submit" value="submit">
    </form>
  </body>
