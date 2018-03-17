@@ -11,10 +11,7 @@ class Hero
   end
 
   def self.all
-    @@ships
+    @@horoes
   end
 
-  def self.clear
-    @@ships = []
-  end
 end
